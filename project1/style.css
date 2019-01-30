@@ -9,6 +9,7 @@ body{
     margin: auto;
     overflow: hidden;
 }
+
 #main-header{
     background-color: coral; 
     border-bottom: 2px black solid;
@@ -35,6 +36,9 @@ body{
 #main-nav li{
     display: inline;
     padding-left: 22px;
+    padding-right: 5px;
+    /* border-left: 1px solid #000; */
+    border-right: 1px solid #000;
 }
 #main-nav a:hover{
     color: rgb(171, 248, 248);
@@ -47,9 +51,100 @@ body{
     font-family: cursive;
     font-weight: bold;
 }
-
+#slider{
+    padding-top: 1px;
+}
 #slider img{
   height: 400px;
   width: 100%;
  
+}
+.boxes{
+    box-sizing: border-box;
+   line-height: 25px;
+   color: tan;
+   font-weight: bold;
+   text-align: center;
+}
+#box1{
+    border: 2px double black;
+    width: 49%;
+    float: left;
+    
+
+}
+#box2{
+    border: 2px double black;
+    width: 50%;
+    float: left;
+}
+
+#box1 h1{
+    text-align: center;
+    padding: 0px;
+    padding-top: 15px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: rgb(49, 0, 0);
+}
+
+#box2 h1{
+    text-align: center;
+    padding: 0px;
+    padding-top: 15px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    color: rgb(49, 0, 0);
+}
+#foot{
+    color: rgb(51, 29, 0);
+    background-color: rgb(240, 110, 63); 
+    
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#foot h3{
+    padding: 0px;
+    margin: 0px;
+}
+
+#main-form{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#main-form h2{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#form-form{
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#form-form label{
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#form-form input[type='button']{
+    background: #000;
+    border: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin:10px 0px; 
 }
