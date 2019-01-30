@@ -1,0 +1,42 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: chocolate;
+    text-align: center;
+    color : #ff9;
+}
+#main-header h1{
+    padding: 0px;
+    margin: 0px;
+}
+#main-nav{
+    
+    background-color: #ff9;
+}
+#main-nav ul{
+    text-decoration: none;
+    margin: 0px;
+    padding: 20px;
+}
+#main-nav li{
+    list-style: none;
+    display: inline;
+    padding-left: 42px;
+    padding-right: 42px;
+
+}
+#main-nav li:hover{
+    background-color: rgb(243, 197, 137);
+    color: rgb(155, 0, 39);
+   
+}
