@@ -107,6 +107,7 @@ body{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    border-top: #000 2px solid;
 }
 
 #foot h3{

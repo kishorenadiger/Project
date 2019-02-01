@@ -18,3 +18,6 @@ function changeImg(){
 	setTimeout("changeImg()", time);
 }
 window.onload=changeImg;
+
+let head = document.querySelector('#main-header');
+console.log(head.children);
