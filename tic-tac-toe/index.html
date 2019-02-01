@@ -9,24 +9,26 @@
 </head>
 <body onload="startGame()">
     <div class="container">
-        <div id="message">message</div>
+        <h1 id="head">TIC-TAC-TOE</h1>
+        <div id="message"></div>
         <table class="tab" border="2px" >
             <tr>
-                <td class="sq" onclick="nextMove(this);" id="1"></td>
-                <td class="sq" onclick="nextMove(this);" id="2"></td>
-                <td class="sq" onclick="nextMove(this);" id="3"></td>
+                <td class="sq" onclick="nextMove(this);" id="s1"></td>
+                <td class="sq" onclick="nextMove(this);" id="s2"></td>
+                <td class="sq" onclick="nextMove(this);" id="s3"></td>
             </tr>
             <tr>
-                    <td class="sq" onclick="nextMove(this);" id="4"></td>
-                    <td class="sq" onclick="nextMove(this);" id="5"></td>
-                    <td class="sq" onclick="nextMove(this);" id="6"></td>
+                    <td class="sq" onclick="nextMove(this);" id="s4"></td>
+                    <td class="sq" onclick="nextMove(this);" id="s5"></td>
+                    <td class="sq" onclick="nextMove(this);" id="s6"></td>
                 </tr>
             <tr>
-                    <td class="sq" onclick="nextMove(this)" id="7"></td>
-                    <td class="sq" onclick="nextMove(this)" id="8"></td>
-                    <td class="sq" onclick="nextMove(this)" id="9"></td>
+                    <td class="sq" onclick="nextMove(this)" id="s7"></td>
+                    <td class="sq" onclick="nextMove(this)" id="s8"></td>
+                    <td class="sq" onclick="nextMove(this)" id="s9"></td>
                 </tr>
         </table>
+        <!-- <input  type="submit" value="reset" onclick='re()'> -->
     </div>
     <script src="index.js">
     </script>
