@@ -29,7 +29,12 @@ export class UserComponent implements OnInit {
     this.hobies.unshift(hobby);
   }
   removeHobby(hobby){
-    console.log(hobby);
+      for(let i=0; i<this.hobies.length;i++)    
+      {
+        if (this.hobies[i]==hobby) {
+          this.hobies.splice(i,1);
+        }
+      }
   }
 
 }
