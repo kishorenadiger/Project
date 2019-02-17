@@ -1,0 +1,40 @@
+
+.nav-tabs{
+  border-bottom: 3px solid #001427c4;
+  .active{
+    background-color: rgb(0, 255, 115);
+    border-color: rgb(19, 150, 74);
+    border-bottom-color:rgb(0, 255, 115);
+
+  }
+}
+.cl{
+
+  font-family: sans-serif;
+  color: rgba(0, 89, 255, 0.788);
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.main-form{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.btn-success{
+  margin-right: 5px;
+}
+.col-form-label{
+  font-family: sans-serif;
+  color: rgba(0, 89, 255, 0.788);
+  font-weight: bolder;
+  font-size: 18px;
+}
+.form-control{
+  margin: 0%;
+}
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
