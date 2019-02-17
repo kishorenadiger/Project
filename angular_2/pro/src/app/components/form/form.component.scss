@@ -32,9 +32,14 @@
 .form-control{
   margin: 0%;
 }
-.table-wrapper-scroll-y {
-  display: block;
-  max-height: 200px;
-  overflow-y: auto;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
+// .table-wrapper-scroll-y {
+//   display: block;
+//   max-height: 200px;
+//   overflow-y: auto;
+//   -ms-overflow-style: -ms-autohiding-scrollbar;
+//   }
+  .table-responsive{
+    max-height:300px;
+
+    min-width: 100%;
+}
